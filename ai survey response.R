@@ -1,3 +1,7 @@
+# Information ----
+## Author:  Nicholas Poggioli (poggiolin@appstate.edu)
+## Date:    June 2024
+
 # Set environment ----
 
 # Import and clean data ----
