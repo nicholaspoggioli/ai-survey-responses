@@ -48,6 +48,8 @@ p + geom_violin() + geom_boxplot(width = 0.1)
 p + geom_violin() + 
   geom_dotplot(binaxis = 'y', stackdir = 'center', dotsize = 0.4)
 
+
+
 # ---------------------------- STUCK HERE WITH DATA FORMATTING
 
 # Line plots ----
@@ -57,16 +59,6 @@ p_line <- ggplot(data = used_AI_long,
 p_line + geom_line(aes(group = MSA, color = MSA)) +
   geom_smooth(size = 1.1, method = 'loess')
 
-# Format date
-#install.packages("lubridate", dependencies=TRUE)
-#install.packages("zoo", dependencies=TRUE)
-library(lubridate)
-library(zoo)
-
-
-as.yearmon(dmy_hm(used_AI_long$date))
-
-format_ISO8601(dmy_hm(used_AI_long$date), precision = "ym")
 
 # Line plot, using https://r-graph-gallery.com/354-highlight-specific-elements-in-line-chart.html
 library(ggplot2)
