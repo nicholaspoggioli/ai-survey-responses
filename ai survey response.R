@@ -1,6 +1,8 @@
 # Information ----
 ## Author:  Nicholas Poggioli (poggiolin@appstate.edu)
 ## Date:    June 2024
+## Data:    USA Census Bureau Business Trends and Outlook Survey (BTOS) Data
+## Data at: https://www.census.gov/data/experimental-data-products/business-trends-and-outlook-survey.html
 
 # Set environment ----
 
